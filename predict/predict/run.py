@@ -8,7 +8,7 @@ from collections import OrderedDict
 from tensorflow.keras.models import load_model
 from numpy import argsort
 
-sys.path.insert(0, '/home/cyjerox/Downloads/poc-to-prod-capstone/poc-to-prod-capstone/preprocessing/preprocessing')
+sys.path.insert(0, '/path/to/poc-to-prod-capstone/poc-to-prod-capstone/preprocessing/preprocessing')
 from embeddings import embed
 import logging
 

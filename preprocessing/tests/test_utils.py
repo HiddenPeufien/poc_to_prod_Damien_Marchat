@@ -2,7 +2,7 @@ import unittest
 import pandas as pd
 from unittest.mock import MagicMock
 import sys
-sys.path.insert(0, '/home/cyjerox/Downloads/poc-to-prod-capstone/poc-to-prod-capstone/preprocessing/preprocessing')
+sys.path.insert(0, '/path/to/poc-to-prod-capstone/poc-to-prod-capstone/preprocessing/preprocessing')
 import utils
 
 class TestBaseTextCategorizationDataset(unittest.TestCase):

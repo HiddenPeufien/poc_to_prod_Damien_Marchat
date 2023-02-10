@@ -7,7 +7,7 @@ import sys
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
 
-sys.path.insert(0, '/home/cyjerox/Downloads/poc-to-prod-capstone/poc-to-prod-capstone/preprocessing/preprocessing')
+sys.path.insert(0, '/path/to/poc-to-prod-capstone/poc-to-prod-capstone/preprocessing/preprocessing')
 from embeddings import embed
 from utils import LocalTextCategorizationDataset
 logger = logging.getLogger(__name__)
